@@ -1,0 +1,32 @@
+################################
+###       COMANDOS GIT       ###
+================================
+
+CONFIGURACION DE CUENTA GITHUB
+
+
+git config --global user.email "mail"
+git config --global user.name "usuario"
+
+
+git init => la carpeta se convierte en repositorio local
+git status => revisar el status del repositorio local
+
+Un commit es una captura instantanea de los cambios preparados
+en el momento de realizarlo
+
+=====================================
+CREAR REPOSITORIOS DE FORMA LOCAL
+=====================================
+git add 'nombre archivo.txt' => hace una pre captura de solo el archivo mencionado
+
+git add . => hace pre captura de tosos los archivos de la carpeta
+
+git commit -m 'texto referente al commit' => realiza la captura que se mencionan en el git add
+
+git log => nos informa de cuantos commit tenemos actualmente
+======================================
+
+
+
+
